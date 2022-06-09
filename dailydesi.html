@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyNet</title>
+
+    <style>
+
+        .menu {
+            width: 1250px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            padding: 10px 15px;
+        }
+
+        .menu h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            margin-left: 15px;
+            color: blueviolet;
+            text-shadow: 3px 3px 3px #fff;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+
+        .menu li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .menu a:hover {
+            color: blueviolet;
+            background-color: black;
+            border: 2px solid peru;
+            border-radius: 3px;
+        }
+
+        .main {
+            float: left;
+            position: relative;
+            margin-left: 50px;
+            flex-wrap: wrap;
+        }
+
+        .lay img {
+            width: 700px;
+            height: 500px;
+            padding: 10px 15px;
+        }
+
+        .lay p {
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+
+        .lateral {
+            flex-wrap: wrap;
+        }
+
+       .lateral img {
+           width: 300px;
+           height: 150px;
+       }
+
+       .lateral p {
+           display: inline-block;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+
+       .lateral {
+           float: left;
+           padding: 10px 15px;
+       }
+
+      .contato {
+          width: 1250px;
+          clear: both;
+          display:flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: black;
+          padding: 20px 30px;
+      }
+
+      .contato li {
+          display: inline-block;
+      }
+
+      .contato li a {
+          text-decoration: none;
+          font-size: 25px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          margin: 0px 200px 0px 150px;
+      }
+
+      .contato a:hover {
+          background-color: black;
+          color: blueviolet;
+          padding: 5px;
+          border: 2px solid peru;
+          border-radius: 7px;
+      }
+
+      .texto {
+          display: table-cell;
+      }
+    </style>
+
+</head>
+<body>
+    <nav class="menu">
+        <h1>CRDE44</h1>
+        <ul>
+            <li>
+                <a href="">Quem somos</a>
+            </li>
+            <li>
+                <a href="">Projetos</a>
+            </li>
+            <li>
+                <a href="">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+<header class="main">
+    <div class="lay">
+    <img src="codigos.jpg"></img>
+    <p>Desenvolvendo para seu propósito.</p>
+    </div>
+</header>
+
+<aside class="lateral">
+    <div>
+    <img src="cidadenet.jpg"></img>
+       <p>Interconectando</p>
+    </div>
+    <div>
+    <img src="seguranca.jpg"></img>
+       <p>Segurança</p>
+    </div>
+    <div>
+    <img src="apps.png"></img>
+    <p>Apps</p>
+    </div>
+    <div>
+    <img src="pcgamin.jpg"></img>
+   <p>Game desenvolvimento</p>
+    </div>
+</aside>
+
+
+<footer class="contato">
+    <li>
+    <a href="">YouTube</a>
+    </li>
+    <li>
+    <a href="">GitHub</a>
+    </li>
+</footer>
+
+</body>
+</html>
